@@ -7,12 +7,12 @@ from twilio.rest import Client
 import pyimgur
 
 #imgur information
-CLIENT_ID = '644617e61e22963'
+CLIENT_ID = 'INSERT_HERE'
 PATH = 'image.png'
 
 #Account Sid and Auth Token From Twilio
-account_sid = 'AC59c2b37368e18fd0b95ba88754a42e45'
-auth_token = 'fb622e6ff161236f053b5cfc6f165a14'
+account_sid = 'INSERT_HERE'
+auth_token = 'INSERT_HERE'
 client = Client(account_sid, auth_token)
 
 # initialize the camera and grab a reference to the raw camera capture
